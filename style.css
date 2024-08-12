@@ -1,8 +1,33 @@
-body{
+body {
     background-color: black;
     font-family: 'Courier New', Courier, monospace;
 }
-h1{
-    color: skyblue;
+
+h1 {
+    margin-top: 2rem;
+    color: red;
     text-align: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+input, button {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid red;
+    padding: 1rem;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input:focus-visible {
+    outline: 0;
+}
+
+button:hover {
+    background-color: lightgreen;
+    color: black;
+    border: 1px dotted white;
 }
